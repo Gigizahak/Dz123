@@ -1,142 +1,91 @@
-// a=10
-// if (a==10){
-//     alert(true)
-// }else {
-//     alert(false)
-// }
-//     min= Math.floor(Math.random() *60)
-//     let message = (min<15) ? '1':
-//         (min <30) ? '2':
-//         (min<45) ? '3':
-//         (min<59) ? '4':
-//         'неверно';
-//     alert(message)
-// let lang=prompt("lang", "");
-// let message= (lang=='ru') ? 'Понедельник, вторник, среда, четверг, пятница, суббота, воскресенье.':
-//     (lang=='en') ? 'Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday.':
-//     'Неверно'
-// alert(message)
-//     switch(lang) {
-//         case 'ru':
-//             alert('Понедельник, вторник, среда, четверг, пятница, суббота, воскресенье.')
-//             break
-    
-//         case 'en': 
-//             alert('Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday.') 
-//             break
-    
-//         default:
-//             alert('Неверно')
-//             break
-//       }
-// var array={'ru':['Понедельник, вторник, среда, четверг, пятница, суббота, воскресенье.'],
-// 'eu':['Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday.']}
-// alert(array[lang])
-//  let a=1
-//  let b=2
-// let message = (a==0) ? 'Верно':
-//     'Неверно'
-// let message = (a>0) ? 'Верно':
-//     'Неверно'
-// let message = (a<0) ? 'Верно':
-//     'Неверно'
-// let message = (a==0) ? 'Верно':
-//     'Неверно'
-// let message = (a>=0) ? 'Верно':
-//     'Неверно'
-//  let message = (a<=0) ? 'Верно':
-//      'Неверно'
-// let message = (a!=0) ? 'Верно':
-//     'Неверно'
-//  let message = (a=='test') ? 'Верно':
-//      'Неверно'
-//   let message = (a===String(1)) ? 'Верно':
-//       'Неверно'
-// let message = (a>0 && a<5) ? 'Верно':
-//     'Неверно';
-// let message = (a==1 || a==0) ? a+=7:
-//      a/=10;
-//  let message = (a<=1 || b>=3) ? a+=b:
-//        a-=b;
-//     let message = (2<a<11) ? 'Верно':
-//         (6<=b<14) ? "Верно":
-//         'Неверно'
-//     alert(message)
-// let number=prompt("number", "1");
-// switch(number){
-//         case '1':
-//             alert('Зима')
-//             break;
-    
-//         case '2': 
-//             alert('Весна') 
-//             break;
-//         case '3':
-//             alert('Лето')
-//             break;
-    
-//         case '4': 
-//             alert('Осень') 
-//             break;
-//         default:
-//             alert('Неверно')
-//             break;
-// }
-// let a = Math.floor(Math.random() *32)
-// if (a<10){
-//     alert('1')
-// }else if (a>10 && a<20) {
-//     alert('2')
-// }else {
-//     alert('3')
-// }
-//     let mount = prompt("mount", "");
-//     if (mount<4){
-//         alert('Зима')
-//     }else if (mount < 7) {
-//         alert('Весна')
-//     }else if (mount < 10){
-//         alert('Лето')
-//     }else{
-//         alert('Осень')
-//     }
-    // let a = prompt("word", "")
-    // if (a[0]=='a'){
-    //     alert('да')
-    // }else {
-    //     alert('нет')
-    // }
-// let number = prompt('number', '')
-// if (number[0] == 1 ||number[0] == 2||number[0] == 3) {
-//     alert('да')
-// }else {
-//     alert('нет')
-// }
-    // let str = prompt('number', '');
-    // let sum = 0;
-    // for (let char of str) {
-    //     sum+=Number(char); 
-    // }
-    // alert(sum)
-let str = '321123';
-sum_str1 = 0
-sum_str2 = 0
-for (let char of str) {
-    sum_str1+=Number(char)
-}
-let a = 0
-for (let char of str) {
-    a++;
-    if (a>(str.length/2)) { 
-        break;
-    }
-    sum_str2+=Number(char)
-}
-if (sum_str1-(sum_str2*2)==0) {
-    alert('Yes')
-}else {
-    alert('No')
-}
-for(let i; i < 10; i++){
 
+// for (let number = 0; number < 101; number++) {
+//     console.log(number)
+// }
+// 
+    // for (let number = 11; number < 34; number++) {
+    //     console.log(number)
+    // }
+        // for (let number = 0; number < 101; number+=2) {
+        //     console.log(number)
+        // }
+// let sum = 0
+// for (let number = 0; number < 101; number++) {
+//     sum +=number
+// } 
+// console.log(sum)
+    // let alley =  [1, 2, 3, 4, 5];
+    // for (let length = 0; length< alley.length; length++) {
+    //     console.log(alley[length])
+    // }
+// let result = 0
+// let alley = [1, 2, 3, 4, 5];
+// for (let length = 0; length< alley.length; length++) {
+//     result += alley[length]
+// }
+// console.log(result)
+    // var object = {green : 'Зелёный', reg : 'красный', blue: 'голубой'}
+    text = ''
+    // for (let i in object) {
+        text += object[i]
+    //     console.log(`${i} :${object[i]}`)
+    // }
+        // var object = {'Коля' : 100 , 'Вася' : 200, 'Петя' : 300}
+        text = ''
+        // for (let i in object) {
+            text += object[i]
+        //     console.log(`${i} - зарплата ${object[i]} долларов`)
+        // }
+var allay = [2, 5, 9, 15, 0, 4]
+for (let x of allay) {
+    if (x > 3 && x < 10) {
+        console.log(x)
+    }
 }
+    var allay = [1, 2, 5, 9, 4, 13, 4, 10] ;
+    for (let x of allay) {
+        if (x==4) {
+            console.log('Есть')
+            break
+        }
+    }
+// var allay = [10, 20, 30, 50, 235, 3000];
+// for (let x of allay) {
+//     y = String(x);
+//     if (y[0]==1 || y[0]==2 || y[0]==5) {
+//         console.log(x)
+//     }
+// }
+    // var allay = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+    // let str = '-';
+    //  for (var i = 0; i < allay.length; i++){
+    //     str += allay[i]+'-' ;
+    //  }
+    // console.log(str);
+// let list = ['воскресенье', 'понедельник', 'вторник', 'среда', 'четверг', 'пятница', 'суббота']
+// for (var x of list) {
+//     if (x == 'суббота'|| x == 'воскресенье') {
+//         var result = x.toUpperCase()
+//         console.log(result)
+//     } else {
+//         console.log(x)
+//     }
+// }
+
+    // let list = ['воскресенье', 'понедельник', 'вторник', 'среда', 'четверг', 'пятница', 'суббота']
+    // let date = new Date
+    // for (var x of list) {
+    //     if (x == list[date.getDay()]) {
+    //         console.log(x.italics())
+    //     } else {
+    //         console.log(x) 
+    //     }
+    // } 
+let result = 0;
+let num =0
+for (let n=1000; n > 30; n/=2) {
+    num++;
+    result= n
+}
+console.log(result);
+console.log(num);
